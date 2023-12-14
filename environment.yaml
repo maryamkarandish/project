@@ -1,0 +1,23 @@
+name: project-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - conda==23.9.0
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - conda-libmamba-solver
+  - python.app
+  - nbconvert
+  - jupyterlab
+  - pandas
+  - jupyterlab-spellchecker
+  - jupyter-book
+  - jupyterlab-git
+  - scikit-learn=1.2.1
+  - ipykernel
+  - matplotlib
+prefix: /Users/maryamkarandish/miniconda3
